@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Write a comment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<header class="text-center bg-success text-white pb-3">
+		<img src="" class="img-fluid">
+		<h3 class="header-title">DOCTOR REVIEW</h3>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 m-auto">
+				<div class="card mt-3">
+					<div class="card-body">
+						<form method="post" action="">
+							<div class="row">
+								<div class="col-sm-12 col-md-6">
+									<div class="form-group">
+										<label>Ad:</label>
+										<input type="text" name="name" class="form-control" required>
+									</div>
+								</div>
+								<div class="col-sm-12 col-md-6">
+									<div class="form-group">
+										<label>Soyad:</label>
+										<input type="text" name="surname" class="form-control" required>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>Ixtisas:</label>
+								<input type="text" name="profession" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<label>Iş yeri:</label>
+								<input type="text" name="workplace" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<label>Comment:</label>
+								<textarea class="form-control" rows="6" required></textarea>
+							</div>
+							<div class="form-group mb-5">
+								<select class="form-control">
+									<option disabled selected>Həkimdən razısınızmı?</option>
+									<option>Hə</option>
+									<option>Yox</option>
+								</select>
+							</div>
+							<button type="submit" class="btn btn-success btn-block btn-lg" name="submit">Rəyi Göndər</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
