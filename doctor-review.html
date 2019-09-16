@@ -1,56 +1,92 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    
+        <!--   <link href="//fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet"/>  -->
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <title>Doctor Review</title>
+    </head>
+<style>
+  .bg-header {
+    background: linear-gradient(rgba(0, 169, 154, 0.89), rgba(0, 169, 154, 0.89));
+  }
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  #bg-image {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 169, 154, 0.89), rgba(0, 169, 154, 0.89)), url('https://www.milesweb.in/blog/wp-content/uploads/2016/10/doctor.jpg');
+  }
+</style>
 
-    <title>Hello, world!</title>
-  </head>
-  <body  >
-  
+<body>
 
-<nav class="navbar navbar-success bg-info font-weight-bold ">
-    <a class=" mx-auto navbar-brand text-dark " href="#">
-      <img src="download.png" width="30" height="30" class="d-inline-block align-top" alt="">
-      DOCTOR REVİEW
-    </a>
+  <div class="container-fluid bg-header py-2">
+    <div class="row">
+      <div class="py-0  col-lg-12 ">
 
-  </nav>
-  <div class="container-fluid bg-success min-vh-100">
-  <div class="row">
-    <div class="col-11 mx-auto">
-  <form class="mt-5 ">
-<div class="container bg-light px-3 py-3">
-    <div class="form-group ">
-      <label class="display-5" for="formGroupExampleInput">Ad</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ad">
+        <h4 class="text-center text-white pt-0 py-2"> <i class="fas fa-stethoscope"></i> Doctor Review</h4>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput2">Soyad</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Soyad">
-    </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput">İxtisas</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" >
-    </div>
-    <div class="form-group">
-      <label for="formGroupExampleInput2">İş yeri</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" >
-    </div>
-</div>
-    <button type="button" class="btn btn-lg btn-block font-weight-bold btn-info mt-5 rounded-pill">Axtar</button>
-  </form>
-</div>
   </div>
-</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <div id="bg-image" class="py-4 ">
+    <h2 class="col-md-12 text-white text-center">
+      Həkim sorğula
+    </h2>
+    <h5 class="col-md-12 text-light text-center">
+      Həkimləri rəy bildir və ya rəyləri nəzərdən keçir
+    </h5>
+  </div>
+  <div class="container-fluid  min-vh-100">
+    <div class="row">
+      <div class="col-11 mx-auto">
+        <form class="mt-4 ">
+          <div class="container card bg-light px-3 py-3">
+            <div class="form-group ">
+              <label class="display-5" for="formGroupExampleInput">Ad</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ad">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Soyad</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Soyad">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput">İxtisas</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="İxtisas">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">İş yeri</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="İş yeri">
+            </div>
+          </div>
+          <button type="button" class="btn btn-lg btn-block rounded-pill font-weight-bold shadow text-white bg-header mt-5 ">Axtar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
